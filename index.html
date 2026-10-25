@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <title>htmlの練習</title>
+    <style>
+    #dl { color:aquamarine; font-size: 30px; }
+    </style>
+</head>
+<body>
+    <div id="dl"></div>
+    <script>
+    setInterval(function() {
+        document.getElementById("dl").innerHTML = new Date().toLocaleString();
+    }, 1000);
+    </script>
+</body>
+</html>
